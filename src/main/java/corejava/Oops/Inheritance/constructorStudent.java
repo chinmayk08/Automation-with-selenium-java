@@ -10,9 +10,6 @@ public class constructorStudent {
         Name=studentName;
     }
 
-    
-
-
     public static void main(String[] args) {
         constructorStudent student1=new constructorStudent(1,"abc");
         System.out.print(student1.ID);
@@ -27,8 +24,8 @@ public class constructorStudent {
         System.out.print(student3.ID);
         System.out.println(":"+student3.Name);
 
-
-
+        constructorStudent student4= new constructorStudent(4,"opi");
+        System.out.print(student4.ID);
+        System.out.println(":"+student4.Name);
     }
-
 }
