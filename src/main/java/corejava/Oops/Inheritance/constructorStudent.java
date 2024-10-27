@@ -18,7 +18,6 @@ public class constructorStudent {
         subject=subjects;
         lastname=lastnames;
     }
-
     public static void main(String[] args) {
         constructorStudent student1=new constructorStudent(1,"abc");
         System.out.print(student1.ID);
@@ -27,7 +26,6 @@ public class constructorStudent {
         constructorStudent student2=new constructorStudent(2,"xyz");
         System.out.print(student2.ID);
         System.out.println(":"+student2.Name);
-
 
         constructorStudent student3=new constructorStudent(3,"wer");
         System.out.print(student3.ID);

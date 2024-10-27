@@ -9,4 +9,8 @@ public class Grandparent {
 
     }
 
+    Grandparent(){
+        System.out.println("grandparent constructor");
+    }
+
 }

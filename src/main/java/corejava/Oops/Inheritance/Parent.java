@@ -6,5 +6,9 @@ public class Parent extends Grandparent {
     void parentmethod(){
         System.out.println("parent method");
     }
+
+    Parent(){
+        System.out.println("parent constructor");
+    }
 }
 
