@@ -12,7 +12,7 @@ public class MainClass2 implements Interface1{
     }
     @Override
     public void print3() {
-        System.out.println("interface 3 method");
+
     }
 
     public static void main(String[] args) {
@@ -21,6 +21,8 @@ public class MainClass2 implements Interface1{
         obj1.print2();
         obj1.print3();
     }
+
+
 }
 
 
