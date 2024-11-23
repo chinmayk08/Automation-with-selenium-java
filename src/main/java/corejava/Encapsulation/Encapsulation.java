@@ -18,8 +18,5 @@ public class Encapsulation {
     }
     public void setAge(int studentAge){
         age=studentAge;
-
     }
-
-
 }
