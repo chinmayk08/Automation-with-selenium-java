@@ -8,7 +8,7 @@ public class Arrays {
         for (int i=0; i<3;i++){
             System.out.println("my index is "+i+" my marks are "+marks[i]);*/
         System.out.println("my marks are:");
-        for (int a : marks) {
+        for (int a : marks) {//traverse
             System.out.println(a);
         }
     }

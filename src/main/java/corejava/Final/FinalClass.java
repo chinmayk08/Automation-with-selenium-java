@@ -15,3 +15,5 @@ public class FinalClass extends finalparent { // final class cannot not be exten
     //void add(){ //final method cannot be override
     //}
 }
+
+

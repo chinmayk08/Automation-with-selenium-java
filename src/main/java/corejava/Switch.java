@@ -16,6 +16,7 @@ public class Switch {
                 break;
             default:
                 System.out.println("invalid day");
+
         }
     }
 }

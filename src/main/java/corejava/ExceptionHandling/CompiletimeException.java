@@ -6,7 +6,8 @@ import java.io.FileReader;
 public class CompiletimeException {
 
     public void test() throws FileNotFoundException {
-            FileReader file = new FileReader("E:\\New folder\\abc.txt");
+            FileReader file = new FileReader("E:\\New folder\\abc.txt" +
+                    "");
 
     }
 

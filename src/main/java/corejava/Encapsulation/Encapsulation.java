@@ -13,6 +13,7 @@ public class Encapsulation {
     public void setName(String student){
         name=student;
     }
+
     public int getAge(){
         return age;
     }

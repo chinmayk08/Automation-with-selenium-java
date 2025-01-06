@@ -11,7 +11,8 @@ class m2 extends m1 {
     void m1Method() {
         System.out.println("In m2");
     }
-    void m2Method(){
+
+    void m2Method() {
         System.out.println("class m2 method");
     }
 
@@ -31,7 +32,6 @@ public class Methodoverriding {
         obj2.m1Method();
 
         //obj2.m2Method(); this line has error bcz m2 method belongs to m2 class but reference variable belongs to m1 class
-
 
 
     }
