@@ -2,12 +2,16 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
 
-<suite name="Practical suit 1">
+<suite name="Practical suit 1" parallel="classes" thread-count="2">
 
     <test name="ABC">
            <classes>
-               <class name="corejava.testng.Annotations"/>
+               <class name="Project.tests.AdditionTest"/>
+               <class name="Project.tests.MinusTest"/>
+               <class name="Project.tests.DivideTest"/>
+               <class name="Project.tests.MultiplyTest"/>
            </classes>
+        
     </test>
 
     <!--<test name="XYZ">

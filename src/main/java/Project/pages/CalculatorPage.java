@@ -5,15 +5,17 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class arithmaticCalpage {
+public class CalculatorPage {
 
     WebDriver driver =null;
 
-    public arithmaticCalpage(WebDriver driver){
+    public CalculatorPage(WebDriver driver){
         this.driver=driver;
         PageFactory.initElements(this.driver,this);
     }
 
+    @FindBy(xpath = "//span[text()='1']")
+    public WebElement number1;
 
     @FindBy(xpath = "//span[text()='2']")
     public WebElement number2;
@@ -50,6 +52,18 @@ public class arithmaticCalpage {
 
     @FindBy(id = "sciOutPut")
     public WebElement outputField;
+
+    @FindBy(xpath = "//span[text()='–']")
+    public WebElement minus;
+
+    @FindBy(xpath = "//span[text()='×']")
+    public WebElement multiply;
+
+    @FindBy(xpath = "//span[text()='/']")
+    public WebElement divide;
+
+    @FindBy(xpath = "//span[text()='Back']")
+    public WebElement back;
 
 
 }
