@@ -21,8 +21,8 @@ public class AdditionTest extends ExecutionDriver {
     }
     @Test(priority = 3)
     public void ispositiveagativeTest() {
-        ArithmaticOperations add=new ArithmaticOperations(driver);
-        int actualresult= add.performOperation("Add",50,80,-70,-10);
-        Assert.assertEquals(actualresult,50);
+        ArithmaticOperations add = new ArithmaticOperations(driver);
+        int actualresult = add.performOperation("Add", 50, 80, -70, -10);
+        Assert.assertEquals(actualresult, 50);
     }
 }

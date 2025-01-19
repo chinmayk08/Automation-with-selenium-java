@@ -6,16 +6,16 @@ import org.openqa.selenium.WebDriver;
 public class ArithmaticOperations {
 
     WebDriver driver;
-    CalculatorPage arithmaticCalpage;
+    CalculatorPage CalculatorPage;
 
     public ArithmaticOperations(WebDriver driver) {
         this.driver = driver;
-        arithmaticCalpage = new CalculatorPage(driver);
+        CalculatorPage = new CalculatorPage(driver);
     }
 
     public int performOperation(String operation, int... numbers) {
 
-        arithmaticCalpage.back.click();
+        CalculatorPage.back.click();
 
         int count=numbers.length;
 
@@ -31,7 +31,6 @@ public class ArithmaticOperations {
                 else{
                     clickSign(numberchar);
                 }
-
             }
             count--;
             if (count!=0){
@@ -39,8 +38,8 @@ public class ArithmaticOperations {
             }
         }
 
-        arithmaticCalpage.equals.click();
-        String actualresult = arithmaticCalpage.outputField.getText().trim();
+        CalculatorPage.equals.click();
+        String actualresult = CalculatorPage.outputField.getText().trim();
         return Integer.parseInt(actualresult);
     }
 
@@ -48,62 +47,62 @@ public class ArithmaticOperations {
         switch (number) {
 
             case 0:
-                arithmaticCalpage.number0.click();
+                CalculatorPage.number0.click();
                 break;
 
             case 1:
-                arithmaticCalpage.number1.click();
+                CalculatorPage.number1.click();
                 break;
 
             case 2:
-                arithmaticCalpage.number2.click();
+                CalculatorPage.number2.click();
                 break;
 
             case 3:
-                arithmaticCalpage.number3.click();
+                CalculatorPage.number3.click();
                 break;
 
             case 4:
-                arithmaticCalpage.number4.click();
+                CalculatorPage.number4.click();
                 break;
 
             case 5:
-                arithmaticCalpage.number5.click();
+                CalculatorPage.number5.click();
                 break;
 
             case 6:
-                arithmaticCalpage.number6.click();
+                CalculatorPage.number6.click();
                 break;
 
             case 7:
-                arithmaticCalpage.number7.click();
+                CalculatorPage.number7.click();
                 break;
 
             case 8:
-                arithmaticCalpage.number8.click();
+                CalculatorPage.number8.click();
                 break;
 
             case 9:
-                arithmaticCalpage.number9.click();
+                CalculatorPage.number9.click();
                 break;
         }
     }
     private void clickoperation(String operation) {
         switch (operation) {
             case "Add":
-                arithmaticCalpage.plus.click();
+                CalculatorPage.plus.click();
                 break;
 
             case "minus":
-                arithmaticCalpage.minus.click();
+                CalculatorPage.minus.click();
                 break;
 
             case "divide":
-                arithmaticCalpage.divide.click();
+                CalculatorPage.divide.click();
                 break;
 
             case "multiply":
-                arithmaticCalpage.multiply.click();
+                CalculatorPage.multiply.click();
                 break;
         }
     }
@@ -111,9 +110,9 @@ public class ArithmaticOperations {
     public void clickSign(char sign){
         switch(sign){
             case '-':
-                arithmaticCalpage.minus.click();
+                CalculatorPage.minus.click();
+
                 break;
         }
-
     }
 }
