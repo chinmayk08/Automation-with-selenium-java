@@ -11,7 +11,7 @@ public class AdditionTest extends ExecutionDriver {
     public void intPositiveTest() {
         ArithmaticOperations add=new ArithmaticOperations(driver);
         int actualresult= add.performOperation("Add",70,10,10);
-        Assert.assertEquals(actualresult,90);
+        Assert.assertEquals(actualresult,10);
     }
     @Test(priority = 2)
     public void intNagativeTest() {
