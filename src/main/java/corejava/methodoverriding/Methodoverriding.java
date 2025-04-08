@@ -7,10 +7,7 @@ class m1 {
 }
 
 class m2 extends m1 {
-    @Override
-    void m1Method() {
-        System.out.println("In m2");
-    }
+
 
     void m2Method() {
         System.out.println("class m2 method");

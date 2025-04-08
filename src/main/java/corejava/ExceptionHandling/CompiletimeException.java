@@ -11,7 +11,7 @@ public class CompiletimeException {
 
     }
 
-   /* public static void main(String[] args) {
+   /* =public static void main(String[] args) {
         try {
             FileReader file = new FileReader("");
             System.out.println("in try block");
