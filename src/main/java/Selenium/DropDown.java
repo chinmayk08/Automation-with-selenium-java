@@ -26,6 +26,9 @@ public class DropDown {
         WebElement abc = dropdown.getFirstSelectedOption();
         System.out.println(abc.getText());
 
+
+
+
         List<WebElement> list = dropdown.getOptions();
         for (WebElement webElement : list) {
             String str = webElement.getText();
