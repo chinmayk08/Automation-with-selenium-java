@@ -23,13 +23,12 @@ public class Frames {
         System.out.println(wd.getPageSource());*/
 
 
+
         System.out.println("-------print html middle code---------");
         WebElement middleframe=wd.findElement(By.name("frame-middle"));
         wd.switchTo().frame(middleframe);
         System.out.println(wd.getPageSource());
-
         wd.switchTo().parentFrame();
-
         System.out.println("------print html right code---------");
 
         WebElement rightframe=wd.findElement(By.name("frame-right"));

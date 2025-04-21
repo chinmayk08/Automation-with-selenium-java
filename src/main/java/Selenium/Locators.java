@@ -19,6 +19,7 @@ public class Locators {
 //        WebElement searchbox= driver.findElement(By.id("calcSearchTerm"));
 //        searchbox.sendKeys("ABC");
 
+
         //Name locator
 //        WebElement searchbox1= driver.findElement(By.name("calcSearchTerm"));
 //        searchbox1.sendKeys("ABC");
@@ -32,9 +33,9 @@ public class Locators {
         searchbox1.click();
         driver.navigate().back();
 
-
         WebElement searchbox2= driver.findElement(By.partialLinkText("Sales Tax"));
         searchbox2.click();
+
 
         //Absulute xpath(/), relative xpath(//)
 
