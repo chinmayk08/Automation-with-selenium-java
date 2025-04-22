@@ -1,17 +1,20 @@
 package corejava.Collections;
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
+import java.util.List;
 
-public class List {
+public class Lists {
 
-    public void list() {
-        ArrayList<String> abc = new ArrayList<>();
+    public void lists() {
+        List<String> abc = new ArrayList<>();
         abc.add("banana");
         abc.add("Apple");
         abc.add("grapes");
+
         abc.add(null);
         System.out.println(abc);
+
+
 
         int length = abc.size();
         System.out.println("length of the list is:" + length);
@@ -28,7 +31,8 @@ public class List {
     }
 
     public static void main(String[] args) {
-
+            Lists a=new Lists();
+            a.lists();
             ArrayList<Integer> in= new ArrayList<>();
             in.add(1);
             in.add(2);
