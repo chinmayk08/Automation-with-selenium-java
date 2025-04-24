@@ -13,6 +13,8 @@ public class ArithmaticOperations {
         CalculatorPage = new CalculatorPage(driver);
     }
 
+
+
     public int performOperation(String operation, int... numbers) {
 
         CalculatorPage.back.click();
