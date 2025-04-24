@@ -10,6 +10,9 @@ public class DataProviderString {
         System.out.println(param1+" "+param2+" "+pp);
     }
 
+
+
+
     @DataProvider(name = "browser type")
     public Object[][] data(){
         //System.out.println("in data provider");
