@@ -11,6 +11,9 @@ public class GenericClass <T>{
     public void setAbc( T Abc){
         this.Abc=Abc;
     }
+
+
+
     public static void main(String[] args) {
         GenericClass<String> abc=new GenericClass<>();
         abc.setAbc("a");
