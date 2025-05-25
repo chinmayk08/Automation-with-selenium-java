@@ -22,6 +22,8 @@ public class SetExample {
 
         for (String a:set){
             System.out.println(a);
+
+
         }
     }
 }
