@@ -15,13 +15,13 @@ public class Assignment1 {
         System.out.println("Expected result is:" + expected + " and Actual result is:" + addition);
     }
 
-    @DataProvider(name = "number")
-    public Object[][] data() {
-        System.out.println("in data provider");
-        return new Object[][]
-                {
-                        {1, 3, 4},
-                        {5, 5, 10}
-                };
+    @DataProvider(name="number")
+    public Object [][] data(){
+            return new Object[][]
+        {
+            {1,2,3},
+            {1,2,3}
+
+        };
     }
 }

@@ -6,13 +6,12 @@ import java.util.List;
 public class Lists {
 
     public void lists() {
-        List<String> abc = new ArrayList<>();
+        List<String> abc=new ArrayList<>();
+        abc.add("apple");
+        abc.add("mango");
         abc.add("banana");
-        abc.add("Apple");
-        abc.add("grapes");
 
-        abc.add(null);
-        System.out.println(abc);
+        System.out.println(abc.get(0));
 
 
 

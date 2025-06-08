@@ -24,5 +24,9 @@ public class Checkbox {
 
         System.out.println("check box 1 selected is "+bc.isSelected());
         System.out.println("check box 2 selected is "+bc1.isSelected());
+
+
+        
+
     }
 }

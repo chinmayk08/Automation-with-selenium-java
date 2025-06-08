@@ -25,7 +25,7 @@ public class Xpath {
         WebElement abc= driver.findElement(By.xpath("//input[@id='bluebtn']"));
 
         //contains
-        WebElement search1= driver.findElement(By.xpath("//a[contains(text()),'fitness']"));
+        WebElement search1= driver.findElement(By.xpath("//a[contains(text(),'fitness')]"));
 
         //text
         WebElement number= driver.findElement(By.xpath("//span[text()='5']"));

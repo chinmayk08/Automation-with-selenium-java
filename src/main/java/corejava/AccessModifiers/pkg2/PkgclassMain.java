@@ -18,7 +18,11 @@ public class PkgclassMain extends ProtectedMember {
         obj1.protectedmethod();
 
 
-        
+
+
+
+
+
     }
 
 
