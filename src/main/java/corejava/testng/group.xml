@@ -12,6 +12,7 @@
 
         </groups>
 
+
         <classes>
             <class name="corejava.testng.groupexample"/>
         </classes>
