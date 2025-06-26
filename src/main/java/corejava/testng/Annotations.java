@@ -37,7 +37,9 @@ public class Annotations {
         System.out.println("AfterTest");
     }
     @AfterSuite
+
     public void m9(){
         System.out.println("AfterSuite");
+
     }
 }

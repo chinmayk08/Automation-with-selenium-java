@@ -12,5 +12,6 @@ public class Assertion {
         int actual=20;
         System.out.println("test123 executed3");
         Assert.assertEquals(actual,expected);
+
     }
 }
