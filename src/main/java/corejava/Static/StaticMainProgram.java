@@ -5,7 +5,7 @@ import java.io.FileReader;
 
 public class StaticMainProgram {
 
-    public  void method() throws ArithmeticException{
+    public  void method(){
         try {
 
         }
@@ -14,14 +14,14 @@ public class StaticMainProgram {
         }
         Static.abc=10;
         Static.add();
-        throw new ArithmeticException();
+        //throw new ArithmeticException();
     }
 
     public static void main(String[] args) throws FileNotFoundException {
         StaticMainProgram obj=new StaticMainProgram();
         obj.method();
 
-        FileReader a= new FileReader("cs");
+       // FileReader a= new FileReader("cs");
 
 
     }

@@ -22,6 +22,7 @@ public class DropDown {
 
         WebElement wd1 = driver.findElement(By.id("dropdown"));
         Select dropdown = new Select(wd1);
+        dropdown.selectByIndex(2);
         dropdown.selectByVisibleText("Option 1");
         WebElement abc = dropdown.getFirstSelectedOption();
         System.out.println(abc.getText());
