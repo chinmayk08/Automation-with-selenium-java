@@ -28,6 +28,9 @@ public class Screenshot {
         WebElement heading = wd.findElement(By.className("heading"));
         File file2 = heading.getScreenshotAs(OutputType.FILE);
         FileUtils.copyFile(file2, new File("C:\\Users\\Acer\\Desktop\\Automation testing\\screenshot2.jpg"));
+
+
+
     }
 
 }
