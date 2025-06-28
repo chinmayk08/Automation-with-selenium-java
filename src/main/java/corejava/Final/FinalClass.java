@@ -10,6 +10,7 @@ public class FinalClass extends finalparent { // final class cannot not be exten
 
     void method(){
         //abc=20; can not change value of final keyword
+
     }
     //@Override
     //void add(){ //final method cannot be override
