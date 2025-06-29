@@ -6,6 +6,8 @@ public class RuntimeException {
         System.out.println("program start");
         String str=null;
         System.out.println(str.length());
+
+
     }
 
 }
