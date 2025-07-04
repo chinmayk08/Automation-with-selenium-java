@@ -12,8 +12,6 @@ public class CompiletimeException {
     }
 
 
-
-
     public static void main(String[] args) {
         try {
             FileReader file = new FileReader("");
@@ -22,6 +20,10 @@ public class CompiletimeException {
             System.out.println("in catch block"+e);
         } finally {
             System.out.println("in finally block");
+
+
+
+
         }
     }
 }
