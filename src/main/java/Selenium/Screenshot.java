@@ -19,9 +19,9 @@ public class Screenshot {
         wd.manage().window().maximize();
         wd.get("https://the-internet.herokuapp.com/");
 
-        /*TakesScreenshot screenshot= (TakesScreenshot) wd;
+        TakesScreenshot screenshot= (TakesScreenshot) wd;
         File file1= screenshot.getScreenshotAs(OutputType.FILE);
-        FileUtils.copyFile(file1,new File("screenshot1.jpg"));*/
+        FileUtils.copyFile(file1,new File("screenshot1.jpg"));
 
 
 
