@@ -23,8 +23,6 @@ public class Screenshot {
         File file1= screenshot.getScreenshotAs(OutputType.FILE);
         FileUtils.copyFile(file1,new File("screenshot1.jpg"));
 
-
-
         WebElement heading = wd.findElement(By.className("heading"));
         File file2 = heading.getScreenshotAs(OutputType.FILE);
         FileUtils.copyFile(file2, new File("C:\\Users\\Acer\\Desktop\\Automation testing\\screenshot2.jpg"));
